@@ -17,4 +17,4 @@ else:
         grade="F"
         status="Fail"
 
-print(f"Mark: {mark}\nGrade: {grade}\nStatus: {status}")
+    print(f"Mark: {mark}\nGrade: {grade}\nStatus: {status}")
