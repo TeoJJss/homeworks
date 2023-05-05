@@ -1,9 +1,6 @@
-str1 = "Abc"
-str2 = "Xyz"
+str1 = input("Enter string 1: ")
+str2 = input("Enter string 2: ")
 j=1
 for i in str1:
-    print(i, end="")
-    while j <=len(str2):
-        print(str2[-j], end="")
-        j+=1
-        break
+    print(i, str2[-j])
+    j+=1
