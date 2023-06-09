@@ -1,0 +1,5 @@
+file=open("sample.txt", "w+")
+file.write("Welcome to file handling exercises.\nHave a nice day")
+file.seek(0)
+print(file.read())
+file.close()
